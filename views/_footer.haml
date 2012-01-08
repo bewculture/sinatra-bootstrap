@@ -1,0 +1,10 @@
+
+-# Javascript at the bottom for fast page loading
+
+-# Grab Google CDN's jQuery. Fall back to local if necessary
+%script{:type => "text/javascript", :src => "http://code.jquery.com/jquery-1.5.min.js"}
+%script
+  !window.jQuery && document.write('<script src="/javascripts/jquery.min.js"><\/script>')
+
+-# Application-specific javascript
+%script{:type => "text/javascript", :src => "/javascripts/application.js"}
