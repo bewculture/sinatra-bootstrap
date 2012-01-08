@@ -11,6 +11,7 @@ Sinatra Bootstrap supports:
 * [Meyer Reset](https://github.com/adamstac/meyer-reset)
 * [jQuery](http://jquery.com/)
 * [Modernizr](http://www.modernizr.com/)
+* [HTML5 Boilerplate](http://html5boilerplate.com/)
 
 ## What is the purpose of Sinatra Bootstrap?
 
