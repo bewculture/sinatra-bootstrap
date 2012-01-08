@@ -1,18 +1,34 @@
 GEM
   remote: http://rubygems.org/
   specs:
+    addressable (2.2.6)
     chunky_png (1.2.5)
     compass (0.11.6)
       chunky_png (~> 1.2)
       fssm (>= 0.2.7)
       sass (~> 3.1)
+    em-websocket (0.3.6)
+      addressable (>= 2.1.1)
+      eventmachine (>= 0.12.9)
+    eventmachine (0.12.10)
+    ffi (1.0.11)
     fssm (0.2.7)
     grid-coordinates (1.1.9)
       compass (>= 0.11.5)
+    guard (0.10.0)
+      ffi (>= 0.5.0)
+      thor (~> 0.14.6)
+    guard-livereload (0.4.0)
+      em-websocket (>= 0.2.0)
+      guard (>= 0.10.0)
+      multi_json (~> 1.0.3)
     haml (3.1.4)
     html5-boilerplate (1.0.0)
       compass (>= 0.11.1)
+    multi_json (1.0.4)
     rack (1.4.0)
+    rack-livereload (0.3.3)
+      rack
     rake (0.9.2)
     sass (3.1.12)
     shotgun (0.9)
@@ -20,6 +36,7 @@ GEM
     sinatra (1.2.7)
       rack (~> 1.1)
       tilt (>= 1.2.2, < 2.0)
+    thor (0.14.6)
     tilt (1.3.3)
 
 PLATFORMS
@@ -28,8 +45,10 @@ PLATFORMS
 DEPENDENCIES
   compass (~> 0.11.6)
   grid-coordinates (~> 1.1.4)
+  guard-livereload
   haml (~> 3.1.4)
   html5-boilerplate
+  rack-livereload
   rake
   sass (~> 3.1.12)
   shotgun (~> 0.9)

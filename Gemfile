@@ -12,3 +12,8 @@ gem 'html5-boilerplate'
 
 # Sass libraries
 gem 'grid-coordinates', '~> 1.1.4'
+
+group :development do
+  gem 'guard-livereload'
+  gem 'rack-livereload'
+end

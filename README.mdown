@@ -66,6 +66,11 @@ You'll also want to open a new terminal window to the same directory and run the
 
 Or you just run `compass watch`, either work.
 
+If you want to use guard, to use livereload for example, use the following command:
+
+    guard
+
+
 ## Helper Rake Tasks
 
 There are a few helper Rake tasks that will help you to clear and compile your Sass stylesheets as well as a few other helpful tasks. There is also a generate task, so you can generate a new project at a defined location based on the bootstrap.
